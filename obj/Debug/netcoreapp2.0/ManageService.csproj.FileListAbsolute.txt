@@ -1,0 +1,10 @@
+f:\לימודים\שנה ג\סמסטר א\עקרונות ויישומי מחשוב ענן\project\ManageService\obj\Debug\netcoreapp2.0\ManageService.csproj.CoreCompileInputs.cache
+f:\לימודים\שנה ג\סמסטר א\עקרונות ויישומי מחשוב ענן\project\ManageService\obj\Debug\netcoreapp2.0\ManageService.AssemblyInfoInputs.cache
+f:\לימודים\שנה ג\סמסטר א\עקרונות ויישומי מחשוב ענן\project\ManageService\obj\Debug\netcoreapp2.0\ManageService.AssemblyInfo.cs
+f:\לימודים\שנה ג\סמסטר א\עקרונות ויישומי מחשוב ענן\project\ManageService\bin\Debug\netcoreapp2.0\ManageService.deps.json
+f:\לימודים\שנה ג\סמסטר א\עקרונות ויישומי מחשוב ענן\project\ManageService\bin\Debug\netcoreapp2.0\ManageService.runtimeconfig.json
+f:\לימודים\שנה ג\סמסטר א\עקרונות ויישומי מחשוב ענן\project\ManageService\bin\Debug\netcoreapp2.0\ManageService.runtimeconfig.dev.json
+f:\לימודים\שנה ג\סמסטר א\עקרונות ויישומי מחשוב ענן\project\ManageService\bin\Debug\netcoreapp2.0\ManageService.dll
+f:\לימודים\שנה ג\סמסטר א\עקרונות ויישומי מחשוב ענן\project\ManageService\bin\Debug\netcoreapp2.0\ManageService.pdb
+f:\לימודים\שנה ג\סמסטר א\עקרונות ויישומי מחשוב ענן\project\ManageService\obj\Debug\netcoreapp2.0\ManageService.dll
+f:\לימודים\שנה ג\סמסטר א\עקרונות ויישומי מחשוב ענן\project\ManageService\obj\Debug\netcoreapp2.0\ManageService.pdb
