@@ -13,8 +13,10 @@ namespace ManageService.Models {
         public string imgId { get; set; }
         public string toUser { get; set; }
 
+        public ShareFileNoRev() { }
+
         public ShareFileNoRev(ShareFile sf) {
-            this._id = "id:" + sf._id;
+            this._id = "id:" + Guid.NewGuid();
             this.imgId = sf.imgId;
             this.toUser = sf.toUser;
         }
