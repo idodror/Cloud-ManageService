@@ -8,3 +8,13 @@ f:\לימודים\שנה ג\סמסטר א\עקרונות ויישומי מחשו
 f:\לימודים\שנה ג\סמסטר א\עקרונות ויישומי מחשוב ענן\project\ManageService\bin\Debug\netcoreapp2.0\ManageService.pdb
 f:\לימודים\שנה ג\סמסטר א\עקרונות ויישומי מחשוב ענן\project\ManageService\obj\Debug\netcoreapp2.0\ManageService.dll
 f:\לימודים\שנה ג\סמסטר א\עקרונות ויישומי מחשוב ענן\project\ManageService\obj\Debug\netcoreapp2.0\ManageService.pdb
+c:\Users\IdoD\MyProject\Cloud-ManageService\bin\Debug\netcoreapp2.0\ManageService.deps.json
+c:\Users\IdoD\MyProject\Cloud-ManageService\bin\Debug\netcoreapp2.0\ManageService.runtimeconfig.json
+c:\Users\IdoD\MyProject\Cloud-ManageService\bin\Debug\netcoreapp2.0\ManageService.runtimeconfig.dev.json
+c:\Users\IdoD\MyProject\Cloud-ManageService\bin\Debug\netcoreapp2.0\ManageService.dll
+c:\Users\IdoD\MyProject\Cloud-ManageService\bin\Debug\netcoreapp2.0\ManageService.pdb
+c:\Users\IdoD\MyProject\Cloud-ManageService\obj\Debug\netcoreapp2.0\ManageService.csproj.CoreCompileInputs.cache
+c:\Users\IdoD\MyProject\Cloud-ManageService\obj\Debug\netcoreapp2.0\ManageService.AssemblyInfoInputs.cache
+c:\Users\IdoD\MyProject\Cloud-ManageService\obj\Debug\netcoreapp2.0\ManageService.AssemblyInfo.cs
+c:\Users\IdoD\MyProject\Cloud-ManageService\obj\Debug\netcoreapp2.0\ManageService.dll
+c:\Users\IdoD\MyProject\Cloud-ManageService\obj\Debug\netcoreapp2.0\ManageService.pdb
