@@ -27,14 +27,14 @@ namespace ManageService.Controllers
             cachingDB = caching.Connection().GetDatabase();
         }
 
-                [HttpGet]
+        [HttpGet]
         [Route("/ReadFromCache/{id}")]
         public Data ReadFromCache(string id) {
             Data d = Newtonsoft.Json.JsonConvert.DeserializeObject<Data>(cachingDB.StringGet(id.ToString()));
             return d;
         }
 
-                private bool VerifyTheToken(string id)
+        private bool VerifyTheToken(string id)
         {
             int index = id.LastIndexOf(':');
             string newUserId = id.Substring(index + 1, id.Length - index - 1);
@@ -50,24 +50,29 @@ namespace ManageService.Controllers
              }
         }
 
+        [HttpGet]
+        [Route("/init")]
+        public void init() { }
+
         [HttpPost]
         [Route("/ShareFile")]
-        public async Task<int> ShareFile([FromBody] ShareFile sf) {
-            if(VerifyTheToken(sf.imgId)){
+        public async Task<string> ShareFile([FromBody] ShareFile sf) {
+            if(VerifyTheToken(sf._id)){
                 ShareFileNoRev shareNoRev = new ShareFileNoRev(sf);
 
                 // check if toUser exist
                 var response = await CouchDBConnect.PostToDB(shareNoRev, "shares");
                 
                 // create the same file with diffrenet id
-                await client.PublishAsync(shareNoRev);
+                string json = JsonConvert.SerializeObject(shareNoRev);
+                await client.PublishAsync(json);
 
                 Console.WriteLine(response);
-                return 1;
+                return "Image shared to " + sf.toUser + " successfully";
             }
             else
             {
-                return 1;
+                return "Please login first!";
             }
         }
     }
